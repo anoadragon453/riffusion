@@ -11,7 +11,7 @@ pydub
 scipy
 soundfile
 sox
-streamlit
+streamlit==1.15.2  # workaround https://github.com/streamlit/streamlit/issues/5867
 torch
 torchaudio
 transformers
